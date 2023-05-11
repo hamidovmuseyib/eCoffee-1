@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCoffee</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="icon" href="logo.png" type="image/x-icon">
+    
+</head>
+<body>
+
+ <!-- HEADER -->
+<header id="header">
+        <div class="header">
+            <div class="container">
+                <div class="header-navbar">
+                   <div class="header-logo"> 
+                        <h2 class="logo-first">eCOFFEE</h2>
+                    </div>
+                    <div class="header-menu">
+                        <ul id="menuItems">
+                            <li><a href="#">Əsas səhifə</a></li>
+                            <li><a href="#about">Haqqımızda</a></li>
+                            <li><a href="#order">Sifariş ver</a></li>
+                            <li><a href="#contact">Əlaqə</a></li>
+                        </ul>
+                        <ion-icon name="menu-outline" id="menu-icon" onclick="menuToggle();"></ion-icon>
+                    </div>
+                </div>
+                <div class="header-text">
+                    <h1>eCoffee <span class="first-letter"> by eManat</span></h1>
+                    <h3>Günə qəhvə ilə başla </h3>
+                    <a href="#order" class="btn-coffee">Başla</a>
+                </div>
+            </div>
+    </div>
+</header>
+
+
+<!-- ABOUT start -->
+<section id="about">
+    <div class="about">
+        <div class="container">
+            <div class="about-title">
+                <h2>Haqqımızda</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-img anime-left">
+                    <img src="img/img.laptop.jpg" alt="">
+                </div>
+                <div class="about-text anime-right" id="about">
+                    <h4>Bizim hekayəmiz</h4>
+                    <div id="heart">
+                        <ion-icon name="heart"></ion-icon>
+                </div>
+                <p>eCoffee kofe brendi 2021-ci ildə eManat brendinin dəstəyi ilə şirkət daxili fəaliyyətinə başlamışdır. eCoffee'nin ən önəmli məqsədi işçilərlə xoş ünsiyyət və şirkət daxili gözəl ortam yaratmaqdır...
+                </p>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- about finish -->
+
+
+<!-- portfolio start  -->
+<section id="portfolio">
+    <div class="portfolio">
+        <div class="portfolio-item ani1">
+            <img src="img/img1.jpg" alt="">
+            <div class="overlay">
+                <ion-icon name="cafe-outline"></ion-icon>      
+            </div>
+        </div>
+        <div class="portfolio-item ani2">
+            <img src="img/img2.jpg" alt="">
+            <div class="overlay">
+                <ion-icon name="cafe-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="portfolio-item ani3">
+            <img src="img/img3.jpg" alt="">
+            <div class="overlay">
+                <ion-icon name="cafe-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="portfolio-item ani4">
+            <img src="img/img4.jpg" alt="">
+            <div class="overlay">
+                <ion-icon name="cafe-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="portfolio-item ani5">
+            <img src="img/img5.jpg" alt="">
+            <div class="overlay">
+                <ion-icon name="cafe-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="portfolio-item ani6">
+            <img src="img/img6.jpg" alt="">
+            <div class="overlay">
+                <ion-icon name="cafe-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="portfolio-item ani7">
+            <img src="img/img7.jpg" alt="">
+            <div class="overlay">
+                <ion-icon name="cafe-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="portfolio-item ani8">
+            <img src="img/img8.jpg" alt="">
+            <div class="overlay">
+                <ion-icon name="cafe-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- portfolio finish -->
+
+
+<!-- order start -->
+<section id="order">
+    <div class="order-box">
+        <div class="order-body">  
+          <form>
+            <h2>Online Sifariş</h2>
+            <div class="form-content">
+              <input type="text" required>
+              <span></span>
+              <label id="name">Ad Soyad:</label>
+            </div>
+    
+            <div class="form-content">
+              <input type="text" required>
+              <span></span>
+              <label id="department">Şöbə:</label>
+            </div>
+    
+            <div class="form-content">
+                <input type="text" required>
+                <span></span>
+                <label id="drink">İçki:</label>
+              </div>
+    
+            <button type="submit">Sifariş ver</button>
+          </form>
+         </div>
+       </div>
+    </div> 
+    </section>
+    <!-- order finish -->
+
+
+<!--DISCOVER Start -->
+<section id="about">
+    <div class="about">
+        <div class="container">
+            <div class="about-title">
+                <h2>Kəşf et</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-img anime-left">
+                    <img src="img/img9.jpg" alt="">
+                </div>
+                <div class="about-text anime-right">
+                    <h4>Bizim hekayəmiz</h4>
+                    <div id="heart">
+                        <ion-icon name="heart"></ion-icon>
+                </div>
+                <p>Fəaliyyətə başlayan gündən bu günə qədər keyfiyyət əsas prioritetimizdir. Ən yaxşı ”Arabica" kofe dənələrini xüsusi diqqətlə seçir, üyüdür və servis edirik. Kofeyə duyduğumuz istək yalnız onu sevgi ilə bölüşməyimizlə ölçülə bilər.</p>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--DISCOVER FINISH -->
+
+
+<!-- contact start -->
+<section id="contact">
+    <div class="contact" id="contact">
+        <div class="container">
+        <div class="page-title">
+            <h2>Əlaqə</h2>
+        </div>
+        <div class="contact-content">
+            <div class="contact-item anime-top">
+                <ion-icon name="call-outline"></ion-icon>
+                <p>+994-55-920-95-15</p>
+            </div>
+            <div class="contact-item anime-bottom">
+                <ion-icon name="pin-outline"></ion-icon>
+                <p>Albert Aqarunov, 7A, Bakı</p>
+            </div>
+            <div class="contact-item anime-top">
+                <ion-icon name="mail-unread-outline"></ion-icon>
+                <p>hamidov.museyib@gmail.com</p>
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- contact end -->
+
+
+<!-- footer start -->
+<footer id="footer">
+    <div class="footer">
+        <div class="footer-content">
+            <div class="page-title">
+                <h2>Sosial Media</h2>
+            </div>
+            <div class="footer-copyright">
+                <p>eManat'ın sosial media hesablarını izləyərək eCoffee'dən xəbərdar ol!</p>
+                <br>
+            </div>
+            <nav class="footer-social">
+                <ul>
+                    <li>
+                        <a href="https://www.emanat.az/" target="_blank"><ion-icon name="logo-google"></ion-icon></a>
+                        <a href="https://twitter.com/eManat_az" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="https://www.instagram.com/emanat.az/?hl=tr" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</footer>
+<!-- footer end -->
+
+
+    <script src="script.js"></script>
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+
+    </script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+    </script>
+
+</body>
+</html>
